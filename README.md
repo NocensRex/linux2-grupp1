@@ -1,14 +1,16 @@
 # linux2-grupp1
 
-Maskiner
+Maskiner:
+
 Docker?
 zsh
 ansible
 rsync?
 
 
-Test: 10.240.1.0/24
-Apache Webserver
+Test: 
+Subnet: 10.240.1.0/24
+Apache Webserver:
 	- OS: Ubuntu 20.04 LTS
 		- Firewall (iptable)
 		- Tester (problem for later)
@@ -31,7 +33,7 @@ MySQL (MariaDB)
 	- OS: Ubuntu
 		- Tables/Structure
 
-	-Packages:
+	- Packages:
 		zsh
 		aptitude
 		ufw
@@ -39,4 +41,4 @@ MySQL (MariaDB)
 
 
 Backup Server
-	-OS: Ubuntu
+	- OS: Ubuntu
